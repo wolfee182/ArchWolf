@@ -1,4 +1,4 @@
-# ArchTitus Installer Script
+# ArchWolf Installer Script
 
 <img src="https://i.imgur.com/YiNMnan.png" />
 
@@ -9,7 +9,6 @@ This README contains the steps I do to install and configure a fully-functional 
 
 Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with Ventoy or Etcher
 
-If you don't want to build using this script I did create an image @ <https://www.christitus.com/arch-titus>
 
 ## Boot Arch ISO
 
@@ -17,8 +16,8 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
+git clone https://github.com/wolfee182/ArchWolf
+cd ArchWolf
 ./archtitus.sh
 ```
 
